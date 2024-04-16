@@ -1,0 +1,237 @@
+.order-items .display_meta p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.order-items .display_meta tr th {
+    padding: 0 4px .5em 0;
+    line-height: 1.5em;
+    width: 20%;
+}
+
+.order-items .display_meta tr td {
+    padding: 0 4px .5em 0;
+    border: 0;
+    line-height: 1.5em;
+}
+
+.order-items small.refunded {
+    display: block;
+    color: #aa0000;
+    white-space: nowrap;
+    margin-top: .5em;
+}
+
+.order-items .cost,
+.order-items .item_cost,
+.order-items .line_cost,
+.order-items .line_tax,
+.order-items .quantity,
+.order-items .tax,
+.order-items .tax_class {
+    text-align: right;
+}
+
+.order-items table.display_meta {
+    margin: .5em 0 0;
+    font-size: .92em!important;
+    color: #888;
+}
+
+.order-items table.display_meta tr th {
+    border: 0;
+    padding: 0 4px .5em 0;
+    line-height: 1.5em;
+    width: 20%;
+}
+
+.order-items table.display_meta tr td {
+    padding: 0 4px .5em 0;
+    border: 0;
+    line-height: 1.5em;
+}
+
+.wc-order-totals .label,
+.wc-order-totals .total {
+    color: #000000;
+}
+
+ul.wc_coupon_list {
+    padding-bottom: 5px;
+}
+
+ul.wc_coupon_list {
+    padding-left: 8px;
+    margin: 0;
+    overflow: hidden;
+    zoom: 1;
+    clear: both;
+}
+
+ul.wc_coupon_list {
+    list-style: none;
+}
+
+ul.wc_coupon_list li.code {
+    display: inline-block;
+    position: relative;
+    padding: 0 .5em;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 #dfdfdf;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+ul.wc_coupon_list li {
+    margin: 0;
+}
+
+.wc-order-totals {
+    width: 100%;
+}
+
+.wc-order-totals .label {
+    font-size: 1em!important;
+    font-weight: normal;
+}
+
+.wc-order-totals .total {
+    font-size: 1em!important;
+    width: 10em;
+    margin: 0 0 0 .5em;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.order-items .line_cost .wc-order-item-discount {
+    display: block;
+    margin-top: .5em;
+}
+
+.order-items .line_cost .wc-order-item-discount {
+    font-size: .92em!important;
+    color: #888;
+}
+
+.wc-order-totals .refunded-total {
+    color: #aa0000;
+}
+
+.wc-order-totals .amount {
+    font-weight: 700;
+}
+
+.amount {
+    white-space: nowrap;
+}
+
+.bottom-0 {
+    margin-bottom: 0;
+}
+
+#kamy-wc-addon-order .refund-actions .btn {
+    float: right;
+    margin-left: 4px;
+}
+
+#kamy-wc-addon-order .refund-actions .cancel-action {
+    float: left;
+    margin-left: 0;
+}
+
+.order-items tr td input {
+    vertical-align: middle;
+    text-align: right;
+    font-size: 14px;
+    padding: 4px;
+    color: #555;
+    line-height: 2;
+    border-radius: 4px;
+}
+
+.wc-order-totals tr th,
+.wc-order-totals tr td {
+    line-height: 2em;
+}
+
+.wc-order-totals input[readonly] {
+    background-color: #eee;
+}
+
+.wc-order-totals input {
+    padding: 0 8px;
+    line-height: 2;
+}
+
+.order_notes {
+    padding: 0;
+}
+
+.order_notes li .note_content {
+    background: #d7cad2;
+    padding: 10px;
+    position: relative;
+}
+
+.order_notes li .meta {
+    padding: 10px;
+    color: #999;
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.order_notes li.system-note .note_content::after {
+    border-color: #d7cad2 transparent;
+}
+
+.order_notes li .note_content::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-width: 10px 10px 0 0;
+    border-style: solid;
+    border-color: #efefef transparent;
+}
+
+.add_note #add_order_note {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #7e8993;
+    background-color: #fff;
+    color: #32373c;
+    overflow: auto;
+    padding: 2px 6px;
+    line-height: 1.42857143;
+    resize: vertical;
+    font-size: 14px;
+}
+
+#order_note_type {
+    font-size: 14px;
+    line-height: 2;
+    color: #32373c;
+    border-color: #7e8993;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 0 24px 0 8px;
+    min-height: 30px;
+    max-width: 25rem;
+    background: #fff;
+    background-size: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.delete_note {
+    display: none;
+}

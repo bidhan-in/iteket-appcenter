@@ -1,0 +1,79 @@
+
+/* description block, single product page */
+
+.single-product div.product .global-product-meta-container,
+.single-product div.product .product-dimension-container {
+    border-top: 1px;
+    border-style: solid;
+    border-color: rgb(76, 78, 89);
+    color: #4c4e59;
+    clear: both;
+    width: 100%;
+}
+
+.single-product div.product .global-product-meta-container .card-header,
+.single-product div.product .product-dimension-container .card-header {
+    cursor: pointer;
+    font-size: 13px;
+    padding: 14px 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.single-product div.product .global-product-meta-container .card-body,
+.single-product div.product .product-dimension-container .card-body {
+    font-size: 12px;
+    line-height: 1rem !important;
+    padding: 0 20% 16px 0;
+    width: 100%;
+}
+
+.single-product div.product .global-product-meta-container .card-body.collapse,
+.single-product div.product .product-dimension-container .card-body.collapse {
+    display: none;
+}
+
+.single-product div.product .global-product-meta-container .card-body.collapse.show,
+.single-product div.product .product-dimension-container .card-body.collapse.show {
+    display: block;
+}
+
+.single-product div.product .global-product-meta-container .card-body ul,
+.single-product div.product .product-dimension-container .card-body ul {
+    padding-left: 40px !important;
+    line-height: 1rem !important;
+}
+
+.single-product div.product .global-product-meta-container .card-body ul ul,
+.single-product div.product .product-dimension-container .card-body ul ul {
+    line-height: 1rem !important;
+}
+
+.single-product div.product .global-product-meta-container .product-desc-btn-container,
+.single-product div.product .product-dimension-container .product-desc-btn-container {
+    float: right;
+    margin-top: 8px;
+    margin-bottom: 0;
+    line-height: 0;
+}
+
+.single-product div.product .global-product-meta-container .product-desc-btn-container .inc-qty-img,
+.single-product div.product .product-dimension-container .product-desc-btn-container .inc-qty-img {
+    display: none;
+}
+
+.single-product div.product .global-product-meta-container .product-desc-btn-container .dec-qty-img,
+.single-product div.product .product-dimension-container .product-desc-btn-container .dec-qty-img {
+    display: block;
+}
+
+.single-product div.product .global-product-meta-container .product-desc-btn-container.show .inc-qty-img,
+.single-product div.product .product-dimension-container .product-desc-btn-container.show .inc-qty-img {
+    display: block;
+}
+
+.single-product div.product .global-product-meta-container .product-desc-btn-container.show .dec-qty-img,
+.single-product div.product .product-dimension-container .product-desc-btn-container.show .dec-qty-img {
+    display: none;
+}
+

@@ -1,0 +1,98 @@
+.woocommerce-checkout #customer_details div.create-account {
+    margin-bottom: 30px !important;
+}
+
+.woocommerce-checkout .create-account label.checkbox,
+.woocommerce-checkout .create-account label.checkbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.woocommerce-checkout .create-account label.checkbox input[type="checkbox"] {
+    position: relative;
+}
+
+.woocommerce-checkout .field_customer_type span.woocommerce-input-wrapper {
+    display: flex;
+    column-gap: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.woocommerce-checkout .field_customer_type span.woocommerce-input-wrapper label {
+    margin-right: 15px;
+}
+
+.woocommerce-checkout .field_customer_type>label[for="customer_type_company"] {
+    display: none !important;
+}
+.woocommerce-checkout.kco-checkout #kco-extra-checkout-fields p#customer_type_field {
+    display: none;
+}
+
+/* .row.dynamic_custom_size_row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+} */
+.dynamic_custom_size_row input[type="number"]{
+    width: 50px;
+    border: 0;
+    border-bottom: 1px solid #4c4e59 !important;
+    border-radius: 0 !important;
+    background-color: #FFF !important;
+    color: #333 !important;
+    display: inline-block;
+    height: auto !important;
+    margin-left: 0px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 13px !important;
+    letter-spacing: 1px;
+    line-height: 0;
+    padding: 3px 0px 0px 0px;
+    text-align: center;
+    -webkit-appearance: textfield !important; /* Chrome, Safari, Edge */
+    -moz-appearance: textfield !important; /* Firefox */
+    appearance: textfield !important; /* Standard */
+}
+input.no-spin-input::-webkit-outer-spin-button,
+input.no-spin-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.dynamic_custom_size_row {
+    margin-bottom: 8px;
+}
+.dynamic_custom_size_row_head label {
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.p-l-0{
+    padding-left: 0px !important;
+}
+.p-r-0{
+    padding-right: 0px !important;
+}
+.entry-summary p.price span.unit.customizable_product {
+    font-size: 14px !important;
+    margin-left: 5px;
+}
+.flex12{
+    display: flex;
+    justify-content: flex-start;
+}
+.single-product.woocommerce-page .product .quantity input.qty{
+    padding-bottom: 0px;
+}
+.single-product.woocommerce-page .product .quantity input.qty.customeattr-product{
+    border: none !important;
+    padding: 0px !important;
+    text-align: left !important;
+}
